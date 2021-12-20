@@ -2,8 +2,8 @@
 sudo python3 -m pip install requests
 sudo python3 -m pip install docker
 
-wget https://raw.githubusercontent.com/ShrykeZ/hnt_peer/main/slam.py
+sudo wget https://raw.githubusercontent.com/ShrykeZ/hnt_peer/main/slam.py -O
 
-sleep 2
+sleep 1
 
-screen -dmS slam sudo python3 slam.py
+sudo screen -dmS slam sudo python3 slam.py
